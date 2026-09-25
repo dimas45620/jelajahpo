@@ -11,6 +11,10 @@ export default function Sidebar() {
                 <li className="nav-item">
                     <Link to="/kategori" className="btn btn-link text-start w100">Kategori</Link>
                 </li>
+
+                <li className="nav-item">
+                    <Link to="/tentang" className="btn btn-link text-start w100">Tentang</Link>
+                </li>
             </ul>
         </div>
     );

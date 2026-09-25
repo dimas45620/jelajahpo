@@ -1,6 +1,7 @@
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import { Outlet } from "react-router-dom";
+
 export default function Layout() {
     return (
         <div className="d-flex flex-column w-screen h-screen">
